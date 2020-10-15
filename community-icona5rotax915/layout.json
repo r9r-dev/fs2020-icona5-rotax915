@@ -21,9 +21,9 @@
       "date": 132472520925846027
     },
     {
-      "path": "SimObjects/Airplanes/Asobo_Icon/model/Icon_A5.XML",
-      "size": 3523,
-      "date": 132470899976725574
+      "path": "SimObjects/Airplanes/Asobo_Icon/model/ICON_A5_cockpit.XML",
+      "size": 14205,
+      "date": 132472539803383926
     },
     {
       "path": "SimObjects/Airplanes/Asobo_Icon/panel/panel.cfg",
