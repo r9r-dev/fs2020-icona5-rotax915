@@ -1,0 +1,39 @@
+{
+  "content": [
+	{
+	  "path": "SimObjects/Airplanes/Asobo_Icon/cockpit.cfg",
+	  "size": 4967,
+	  "date": 1602366381986
+	},
+	{
+	  "path": "SimObjects/Airplanes/Asobo_Icon/engines.cfg",
+	  "size": 11215,
+	  "date": 1602700957052
+	},
+	{
+	  "path": "SimObjects/Airplanes/Asobo_Icon/flight_model.cfg",
+	  "size": 20817,
+	  "date": 1602704647783
+	},
+	{
+	  "path": "SimObjects/Airplanes/Asobo_Icon/systems.cfg",
+	  "size": 8703,
+	  "date": 1602764023290
+	},
+	{
+	  "path": "SimObjects/Airplanes/Asobo_Icon/model/ICON_A5_cockpit.XML",
+	  "size": 14205,
+	  "date": 1602765980338
+	},
+	{
+	  "path": "SimObjects/Airplanes/Asobo_Icon/panel/panel.cfg",
+	  "size": 1130,
+	  "date": 1602605352160
+	},
+	{
+	  "path": "SimObjects/Airplanes/Asobo_Icon/panel/panel.xml",
+	  "size": 17724,
+	  "date": 1602700354103
+	}
+  ]
+}
