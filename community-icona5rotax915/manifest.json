@@ -1,0 +1,20 @@
+{
+  "dependencies": [
+    {
+      "name": "fs-base-propdefs",
+      "package_version": "0.1.21"
+    }
+  ],
+  "content_type": "AIRCRAFT",
+  "title": "community-vl3rotax915",
+  "manufacturer": "JMB Aircraft",
+  "creator": "Flight Simulator Community",
+  "package_version": "0.1.32",
+  "minimum_game_version": "1.8.2",
+  "release_notes": {
+    "neutral": {
+      "LastUpdate": "",
+      "OlderHistory": ""
+    }
+  }
+}
