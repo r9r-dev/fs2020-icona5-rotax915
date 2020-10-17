@@ -75,16 +75,6 @@
 			<BeginText></BeginText>
 			<EndText>
 			</EndText>
-			<YellowBlink>
-				<Greater>
-					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-					<Constant>48</Constant>
-				</Greater>
-				<Lower>
-					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-					<Constant>48</Constant>
-				</Lower>
-			</YellowBlink>
 			<RedBlink>
 				<Greater>
 					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
