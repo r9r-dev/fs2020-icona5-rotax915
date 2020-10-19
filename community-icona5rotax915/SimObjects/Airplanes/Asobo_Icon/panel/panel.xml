@@ -3,6 +3,9 @@
 		<Name>AS3X_Touch_1</Name>
 		<SyntheticVision>True</SyntheticVision>
 		<AltimeterIndex>0</AltimeterIndex>
+		<TactileOnly>True</TactileOnly>
+		<ReversionaryMode>True</ReversionaryMode>
+		<RadarAltitude>True</RadarAltitude>
 		<WindDataMode>1</WindDataMode>
 		<AutoPitotHeat>True</AutoPitotHeat>
 		<!-- DisplayMode>PFD</DisplayMode> -->
@@ -14,14 +17,17 @@
 		
 	<Instrument>
 		<Name>AS92</Name>
+								
 		<Electric>
 			<Simvar name="CIRCUIT AVIONICS ON" unit="Boolean"/>
 		</Electric>
 	</Instrument>
+ 
 	<Instrument>
 		<Name>AS21</Name>
 		<Electric>
 			<And>
+													   
 				<Greater>
 					<Simvar name="COM VOLUME:1" unit="Percent"/>
 					<Constant>0</Constant>
@@ -31,11 +37,13 @@
 		</Electric>
 	</Instrument>
 	
-	<Logic>
-		<Handler>Systems_AS1000</Handler>
-		<!-- PFD>AS3X_Touch_1</PFD>  -->
-		<MFD>AS3X_Touch_2</MFD>
-	</Logic>
+			 				   																			 
+  <Instrument>
+    <Name>AS1000_AttitudeSpeedBackup</Name>		
+    <Electric>
+		<Simvar name="CIRCUIT GENERAL PANEL ON" unit="Bool"/>	 
+    </Electric>
+  </Instrument>
 	
 	  <!--Engine Display -->
   
@@ -440,21 +448,21 @@
     </Annunciation>
 	
 	    <Annunciation>
-      <Type>Caution</Type>
+      <Type>Advisory</Type>
       <Text>PROP DEICE ON</Text>
       <Condition>
         <And>
 			<Lower>
-				<Simvar name="PROP RPM:1" unit="rpm"/>
+				<Simvar name="PROP RPM" unit="rpm"/>
 				<Constant>1</Constant>
 			</Lower>
-			<Simvar name="PROP DEICE SWITCH:1" unit="Bool"/>
+			<Simvar name="PROP DEICE SWITCH" unit="Bool"/>
 		</And>
       </Condition>
     </Annunciation>
-
-        <Annunciation>
-        <Type>Caution</Type>
+	
+	<Annunciation>
+        <Type>Advisory</Type>
         <Text>PITOT TEMP</Text>
         <Condition>
             <And>
@@ -469,8 +477,32 @@
             </And>
         </Condition>
     </Annunciation>
-		
-	    <Annunciation>
+	
+    <Annunciation>
+      <Type>Advisory</Type>
+      <Text>PITOT HT ON </Text>
+			<Condition>							
+					<Simvar name="PITOT HEAT" unit="Boolean"/>							 							  																	   										  											  
+			</Condition>
+    </Annunciation>
+	
+	 <Annunciation>
+      <Type>Advisory</Type>
+      <Text>ST DEICE ON </Text>
+			<Condition>							
+					<Simvar name="STRUCTURAL DEICE SWITCH" unit="Boolean"/>							 							  																	   										  											  
+			</Condition>
+    </Annunciation>
+	
+    <Annunciation>
+      <Type>Advisory</Type>
+      <Text>WS DEICE ON </Text>
+			<Condition>							
+					<Simvar name="WINDSHIELD DEICE SWITCH" unit="Boolean"/>							 							  																	   										  											  
+			</Condition>
+    </Annunciation>
+
+	<Annunciation>
       <Type>Caution</Type>
       <Text>AUX BOOST PMP ON</Text>
       <Condition>
@@ -503,7 +535,7 @@
 
 	
 	    <Annunciation>
-      <Type>Warning</Type>
+      <Type>Advisory</Type>
       <Text>PARK BRAKE</Text>
       <Condition>
         <Simvar name="BRAKE PARKING INDICATOR" unit="Bool"/>
