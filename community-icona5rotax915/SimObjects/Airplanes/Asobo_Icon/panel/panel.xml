@@ -396,19 +396,19 @@
 			<Unit>GAL</Unit>	
 			<CursorText></CursorText>			
 			<Minimum>0</Minimum>
-			<Maximum>40</Maximum>																 		   
+			<Maximum>20</Maximum>																 		   
 			<Value>
 				<Simvar name="FUEL SELECTED QUANTITY" unit="gallons"/>
 			</Value>
 			<ColorZone>
 				<Color>red</Color>
 				<Begin>0</Begin>
-				<End>4.0</End>
+				<End>2.0</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>green</Color>
-				<Begin>4</Begin>
-				<End>40</End>
+				<Begin>2</Begin>
+				<End>20</End>
 			</ColorZone>
 			<GraduationLength text="True">10</GraduationLength>	
 			
@@ -604,7 +604,7 @@
       <Condition>
         <Lower>
           <Simvar name="FUEL SELECTED QUANTITY" unit="gallon"/>
-          <Constant>4</Constant>
+          <Constant>2</Constant>
         </Lower>
       </Condition>
     </Annunciation>
