@@ -3,27 +3,27 @@
     {
       "path": "SimObjects/Airplanes/Asobo_Icon/cockpit.cfg",
       "size": 4967,
-      "date": 132475426750128689
+      "date": 132477812682565752
     },
     {
       "path": "SimObjects/Airplanes/Asobo_Icon/engines.cfg",
-      "size": 11207,
-      "date": 132475429199826999
+      "size": 11206,
+      "date": 132477825060765203
     },
     {
       "path": "SimObjects/Airplanes/Asobo_Icon/flight_model.cfg",
-      "size": 16215,
-      "date": 132475415381012518
+      "size": 21468,
+      "date": 132477825452397923
     },
     {
       "path": "SimObjects/Airplanes/Asobo_Icon/systems.cfg",
-      "size": 9054,
-      "date": 132475411326090995
+      "size": 9037,
+      "date": 132477783328661870
     },
     {
       "path": "SimObjects/Airplanes/Asobo_Icon/model/ICON_A5_cockpit.XML",
       "size": 14205,
-      "date": 132472539803383926
+      "date": 132477786222080535
     },
     {
       "path": "SimObjects/Airplanes/Asobo_Icon/panel/panel.cfg",
@@ -32,8 +32,18 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_Icon/panel/panel.xml",
-      "size": 18455,
-      "date": 132475421933371041
+      "size": 18338,
+      "date": 132477786686917498
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_Icon/TEXTURE/ICONA5_COCKPIT_GAUGE_AIRSPEED_ALBD.PNG.DDS",
+      "size": 4194452,
+      "date": 132477811027222933
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_Icon/TEXTURE/ICONA5_COCKPIT_GAUGE_AIRSPEED_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132472542214999995
     }
   ]
 }

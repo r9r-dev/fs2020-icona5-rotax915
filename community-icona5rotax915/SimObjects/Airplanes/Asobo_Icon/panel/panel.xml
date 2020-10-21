@@ -52,8 +52,8 @@
 			<Type>Circular</Type>
 			<ID>MANIN_Gauge</ID>
 			<Unit>MAN IN</Unit>
-			<Minimum>0</Minimum>
-			<Maximum>53</Maximum>
+			<Minimum>1</Minimum>
+			<Maximum>48</Maximum>
 			<Style>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
@@ -68,17 +68,17 @@
 			<ColorZone>
 				<Color>green</Color>
 				<Begin>0</Begin>
-				<End>48</End>
+				<End>45</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>yellow</Color>
-				<Begin>48</Begin>
-				<End>51</End>
+				<Begin>45</Begin>
+				<End>47</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>51</Begin>
-				<End>53</End>
+				<Begin>47</Begin>
+				<End>48</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText>
@@ -86,7 +86,7 @@
 			<RedBlink>
 				<Greater>
 					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-					<Constant>51</Constant>
+					<Constant>47</Constant>
 				</Greater>
 			</RedBlink>
 		</Gauge>
@@ -360,7 +360,7 @@
 			<Title>FUEL</Title>
 			<Unit>GPH</Unit>
 			<Minimum>0</Minimum>
-			<Maximum>15</Maximum>
+			<Maximum>9</Maximum>
 			<Style>
 				<ValuePos>End</ValuePos>
 				<ValuePrecision>1</ValuePrecision>
@@ -371,17 +371,17 @@
 			<ColorZone>
 				<Color>green</Color>
 				<Begin>0</Begin>
-				<End>13.1</End>
+				<End>7.5</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>yellow</Color>
-				<Begin>13.2</Begin>
-				<End>14.5</End>
+				<Begin>7.5</Begin>
+				<End>8.5</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>14.5</Begin>
-				<End>15</End>
+				<Begin>8.5</Begin>
+				<End>9</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
@@ -396,26 +396,22 @@
 			<Unit>GAL</Unit>	
 			<CursorText></CursorText>			
 			<Minimum>0</Minimum>
-			<Maximum>20</Maximum>																 		   
+			<Maximum>40</Maximum>																 		   
 			<Value>
 				<Simvar name="FUEL SELECTED QUANTITY" unit="gallons"/>
 			</Value>
 			<ColorZone>
 				<Color>red</Color>
 				<Begin>0</Begin>
-				<End>2.0</End>
-			</ColorZone>
-			<ColorZone>
-				<Color>yellow</Color>
-				<Begin>2.0</Begin>
-				<End>2.5</End>
+				<End>4.0</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>green</Color>
-				<Begin>2.5</Begin>
-				<End>20</End>
+				<Begin>4</Begin>
+				<End>40</End>
 			</ColorZone>
-			<GraduationLength text="True">4</GraduationLength>				    		
+			<GraduationLength text="True">10</GraduationLength>	
+			
 		</Gauge>
 	 				<Text>	
 					<Left fontsize="8">TIAS</Left>
@@ -608,7 +604,7 @@
       <Condition>
         <Lower>
           <Simvar name="FUEL SELECTED QUANTITY" unit="gallon"/>
-          <Constant>2.5</Constant>
+          <Constant>4</Constant>
         </Lower>
       </Condition>
     </Annunciation>

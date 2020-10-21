@@ -226,7 +226,7 @@
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_INSTRUMENT_Needle_Airspeed_Template">
 				<MIN_VALUE>0</MIN_VALUE>
-				<MAX_VALUE>120</MAX_VALUE>
+				<MAX_VALUE>180</MAX_VALUE>
 				<DONT_APPEND_ID>True</DONT_APPEND_ID>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_INSTRUMENT_Needle_Altimeter_Template">
@@ -256,7 +256,7 @@
 				<ANIM_NAME>INSTRUMENT_Needle_Water_Temperature</ANIM_NAME>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_INSTRUMENT_Needle_Fuel_Quantity_Template">
-				<MAX_FUEL_DISPLAYED_QUANTITY_GALLONS>20</MAX_FUEL_DISPLAYED_QUANTITY_GALLONS>
+				<MAX_FUEL_DISPLAYED_QUANTITY_GALLONS>40</MAX_FUEL_DISPLAYED_QUANTITY_GALLONS>
 			</UseTemplate>
 			<CameraTitle>PFD</CameraTitle>
 		</Component>
@@ -309,7 +309,7 @@
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_SAFETY_Indicator_LowFuel_Template">
 				<SIMVAR_FUEL>FUEL SELECTED QUANTITY</SIMVAR_FUEL>
-				<THRESHOLD>2</THRESHOLD>
+				<THRESHOLD>4</THRESHOLD>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_SAFETY_Indicator_Coolant_Template">
 			</UseTemplate>
