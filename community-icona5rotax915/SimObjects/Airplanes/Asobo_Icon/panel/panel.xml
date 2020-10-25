@@ -3,7 +3,6 @@
 		<Name>AS3X_Touch_1</Name>
 		<SyntheticVision>True</SyntheticVision>
 		<AltimeterIndex>0</AltimeterIndex>
-		<TactileOnly>True</TactileOnly>
 		<ReversionaryMode>True</ReversionaryMode>
 		<RadarAltitude>True</RadarAltitude>
 		<WindDataMode>1</WindDataMode>

@@ -261,6 +261,7 @@
 			<CameraTitle>PFD</CameraTitle>
 		</Component>
 		<!-- SAFETY ###################################### -->
+		
 		<Component ID="SAFETY">
 			<DefaultTemplateParameters>
 				<CUSTOM_TEST_COND>(L:XMLVAR_LTS_Test)</CUSTOM_TEST_COND>
